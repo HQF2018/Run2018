@@ -1,9 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T02:20:48.291Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="_xIKDbhSO1EBxaWPtRcx" version="13.10.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-25T02:34:39.887Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="YZUhrTdGCLjfQN28bAhd" version="13.10.2" type="github">
   <diagram id="liFdQe-AoSiRbaG86Z5b" name="Page-1">
     <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="coPGIeMiWcjhEIqUPNaW-15" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="930" height="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="coPGIeMiWcjhEIqUPNaW-16" value="&lt;font style=&quot;font-size: 14px&quot;&gt;沟通的过程&lt;/font&gt;" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="coPGIeMiWcjhEIqUPNaW-15">
+          <mxGeometry y="20" width="930" height="270" as="geometry">
+            <mxRectangle y="20" width="780" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="coPGIeMiWcjhEIqUPNaW-13" value="sdf" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;fillColor=#CCFFFF;" vertex="1" parent="coPGIeMiWcjhEIqUPNaW-16">
+          <mxGeometry x="160" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="coPGIeMiWcjhEIqUPNaW-19" value="" style="shape=tapeData;whiteSpace=wrap;html=1;perimeter=ellipsePerimeter;fillColor=#CCFFFF;" vertex="1" parent="coPGIeMiWcjhEIqUPNaW-16">
+          <mxGeometry x="40" y="10" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="coPGIeMiWcjhEIqUPNaW-17" value="Lane 2" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="coPGIeMiWcjhEIqUPNaW-15">
+          <mxGeometry y="290" width="930" height="120" as="geometry">
+            <mxRectangle y="40" width="780" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="coPGIeMiWcjhEIqUPNaW-18" value="Lane 3" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="coPGIeMiWcjhEIqUPNaW-15">
+          <mxGeometry y="410" width="930" height="490" as="geometry">
+            <mxRectangle y="60" width="780" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="coPGIeMiWcjhEIqUPNaW-14" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=15;dx=38;arrowHead=55;fillColor=#CCFFFF;" vertex="1" parent="coPGIeMiWcjhEIqUPNaW-18">
+          <mxGeometry x="540" y="90" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="coPGIeMiWcjhEIqUPNaW-26" value="测试一下" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;fillColor=#CCFFFF;" vertex="1" parent="coPGIeMiWcjhEIqUPNaW-18">
+          <mxGeometry x="20" width="380" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="coPGIeMiWcjhEIqUPNaW-27" value="Lane 1" style="swimlane;html=1;startSize=20;" vertex="1" parent="coPGIeMiWcjhEIqUPNaW-26">
+          <mxGeometry x="20" width="120" height="480" as="geometry">
+            <mxRectangle x="20" width="30" height="480" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="coPGIeMiWcjhEIqUPNaW-28" value="Lane 2" style="swimlane;html=1;startSize=20;" vertex="1" parent="coPGIeMiWcjhEIqUPNaW-26">
+          <mxGeometry x="140" width="120" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="coPGIeMiWcjhEIqUPNaW-29" value="Lane 3" style="swimlane;html=1;startSize=20;" vertex="1" parent="coPGIeMiWcjhEIqUPNaW-26">
+          <mxGeometry x="260" width="120" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="coPGIeMiWcjhEIqUPNaW-22" value="Lane 4" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="coPGIeMiWcjhEIqUPNaW-15">
+          <mxGeometry y="900" width="930" height="320" as="geometry">
+            <mxRectangle y="80" width="780" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="coPGIeMiWcjhEIqUPNaW-23" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=15;dx=38;arrowHead=55;fillColor=#CCFFFF;" vertex="1" parent="coPGIeMiWcjhEIqUPNaW-22">
+          <mxGeometry x="200" y="120" width="100" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
